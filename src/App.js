@@ -1,8 +1,11 @@
 import React from 'react'
+import Home from './Home'
 
 const App = () => {
   return (
-    <div className="text-7xl capitalize text-pink-100">hi hossein</div>
+    <div>
+      <Home/>
+    </div>
   )
 }
 
