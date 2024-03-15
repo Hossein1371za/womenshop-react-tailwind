@@ -14,9 +14,9 @@ const Header = () => {
           {/* Toggle menu */}
           <div
             onClick={() => setOpenMenu(!openMenu)}
-            className="text-3xl lg:hidden"
+            className="lg:hidden"
           >
-            {openMenu ? <RiCloseFill /> : <RiMenu4Fill />}
+            {openMenu ? <RiCloseFill className="text-3xl"/> : <RiMenu4Fill className="text-3xl"/>}
           </div>
           {/* Logo */}
           <Link to="/" className="flex items-center justify-center gap-x-4">
@@ -32,7 +32,7 @@ const Header = () => {
           <div
             className={`${
               openMenu ? "right-0" : "-right-full"
-            } absolute top-[100%] h-screen w-full bg-white transition-all duration-300 lg:hidden`}
+            } absolute z-50 top-[100%] h-screen w-full bg-white transition-all duration-300 lg:hidden`}
           >
             <NavMobile />
           </div>

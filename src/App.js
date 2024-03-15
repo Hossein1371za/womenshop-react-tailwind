@@ -1,10 +1,10 @@
 import React from 'react'
-import Home from './Home'
+import Core from './Core'
 
 const App = () => {
   return (
     <div>
-      <Home/>
+      <Core/>
     </div>
   )
 }
