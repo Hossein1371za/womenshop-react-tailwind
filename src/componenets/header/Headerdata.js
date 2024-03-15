@@ -19,4 +19,12 @@ export const headerData =[
         name:"اکسسوری زنانه",
         href:"/accessory",
     },
+    {
+        name:"ورود",
+        href:"/login",
+    },
+    {
+        name:"ثبت نام",
+        href:"/register",
+    },
 ]
