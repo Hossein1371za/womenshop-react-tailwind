@@ -1,11 +1,13 @@
 import React from "react";
 import Hero from "./Hero";
+import Collection from "./collection/Collection"
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Hero />
-    </div>
+      <Collection />
+    </>
   );
 };
 
