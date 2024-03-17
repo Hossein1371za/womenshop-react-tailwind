@@ -5,7 +5,7 @@ const AboutBuy = () => {
   return (
     <div className="mt-[80px] bg-gray-100">
       <div className="container mx-auto p-10">
-        <div className="flex flex-col md:flex-row items-center justify-around">
+        <div className="flex flex-col md:flex-row items-center justify-around gap-5">
           {aboutBuyData.map((item, index) => {
             return (
               <div key={index} className="flex flex-col items-center gap-4 max-w-[350px]">

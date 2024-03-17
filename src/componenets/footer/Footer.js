@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <footer className="mt-[80px]">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3">
-          <div className="p-3 max-w-[400px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center">
+          <div className="p-3 max-w-[400px] flex flex-col items-center">
             <h3 className="h3 text-center mb-4 text-pink-500 border-b-2 pb-3">
               اطلاعات
             </h3>
@@ -30,7 +30,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="p-3 max-w-[400px]">
+          <div className="p-3 max-w-[400px] flex flex-col items-center">
             <h3 className="h3 text-center mb-4 text-pink-500 border-b-2 pb-3">
               دسته ها
             </h3>
@@ -49,7 +49,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="p-3 max-w-[400px]">
+          <div className="p-3 max-w-[400px] flex flex-col items-center">
             <h3 className="h3 text-center mb-4 text-pink-500 border-b-2 pb-3">
               اطلاعات فروشگاه
             </h3>
