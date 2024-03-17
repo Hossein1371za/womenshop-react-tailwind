@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaLocationPin, FaPhone, FaMailchimp,FaInstagram,FaLinkedin,FaYoutube,FaTelegram } from "react-icons/fa6";
+import { FaLocationPin, FaPhone,FaInstagram,FaLinkedin,FaYoutube,FaTelegram } from "react-icons/fa6";
+import { LuMail } from "react-icons/lu";
 
 const Footer = () => {
   return (
@@ -55,27 +56,27 @@ const Footer = () => {
             <div className="flex flex-col gap-y-3">
               <div className="flex items-center justify-center gap-x-3">
                 <p>
-                  <FaLocationPin />
+                  <FaLocationPin className="text-2xl text-pink-500"/>
                 </p>
                 <p>آدرس مورد نظر شما</p>
               </div>
               <div className="flex items-center justify-center gap-x-3">
                 <p>
-                  <FaPhone />
+                  <FaPhone className="text-2xl text-pink-500"/>
                 </p>
                 <p className="number">021-12345678</p>
               </div>
               <div className="flex items-center justify-center gap-x-3">
                 <p>
-                  <FaMailchimp />
+                  <LuMail className="text-2xl text-pink-500"/>
                 </p>
                 <p className="number">youremail@gmail.com</p>
               </div>
               <div className="flex items-center mt-4 gap-x-3 mx-auto">
-                    <FaInstagram/>
-                    <FaLinkedin/>
-                    <FaTelegram/>
-                    <FaYoutube/>
+                    <FaInstagram size={30} className="hover:text-pink-500"/>
+                    <FaLinkedin size={30} className="hover:text-pink-500"/>
+                    <FaTelegram size={30} className="hover:text-pink-500"/>
+                    <FaYoutube size={30} className="hover:text-pink-500"/>
               </div>
             </div>
           </div>
