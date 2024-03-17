@@ -9,7 +9,7 @@ const Products = () => {
         {productData.map((item, index) => {
           return (
             <div className="flex flex-col items-center gap-y-3 p-4 shadow-xl border-2 overflow-hidden" key={index}>
-              <img className="p-6 hover:scale-125 transition-all duration-300" src={item.img} alt="/" />
+              <img className="cursor-pointer p-6 hover:scale-125 transition-all duration-300" src={item.img} alt="/" />
               <div className="flex items-center justify-between w-full gap-4">
                 <p className="font-semibold text-lg">{item.title}</p>
                 <p className="text-lg number">{item.price}</p>

@@ -1,7 +1,8 @@
 import React from "react";
 import Hero from "./Hero";
 import Collection from "./collection/Collection"
-import Products from "../product/Products";
+import Products from "./product/Products";
+import AboutBut from "./aboutBuy/AboutBuy";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <Collection />
       <Products/>
+      <AboutBut />
     </>
   );
 };
