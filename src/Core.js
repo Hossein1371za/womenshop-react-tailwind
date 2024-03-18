@@ -3,6 +3,7 @@ import Header from "./componenets/header/Header";
 import Home from "./componenets/home/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./componenets/footer/Footer";
+import Dress from "./componenets/dress/Dress";
 
 const Core = () => {
   return (
@@ -10,6 +11,7 @@ const Core = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/dress" element={<Dress />} />
       </Routes>
       <Footer/>
     </BrowserRouter>

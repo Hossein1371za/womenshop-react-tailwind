@@ -1,7 +1,7 @@
 export const headerData =[
     {
         name:"خانه",
-        href:"/home",
+        href:"/",
     },
     {
         name:"لباس زنانه",
