@@ -37,7 +37,7 @@ export const productData = [
         img:"/assets/image/products/product5.jpg",
         title:"کاپشن چرمی",
         price:570000,
-        color:"##991313",
+        color:"#991313",
         colorName:"زرشکی",
         size:["l"],
     },

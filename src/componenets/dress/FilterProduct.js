@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import { productData } from "../home/product/ProductsData";
+// import formatCurrency from "../../Util";
 
 const FilterProduct = () => {
-  const [range, setRange] = useState(0);
-
+  const [range, setRange] = useState(1500000);
+  const [colorName, setcolorName] = useState("");
+  console.log(colorName)
+  // console.log(formatCurrency(range))
+  const uniqueColors = new Set(productData.map((item) => item.color));
   return (
     <div>
       <div className="title-filter">
@@ -22,11 +26,22 @@ const FilterProduct = () => {
           id="range"
           name="range"
         />
-        <p className="number border-b-2 pb-4" htmlFor="range">0 تومان - {range} تومان</p>
+        <p className="number border-b-2 pb-4" htmlFor="range">
+          0 تومان - {range} تومان
+        </p>
       </div>
-      <div className="color-filter">
-        <h3>رنگ</h3>
-
+      <div className="color-filter my-2">
+        <h3 className="mb-3">رنگ : {colorName}</h3>
+        <div className="flex gap-x-4">
+        {Array.from(uniqueColors).map((item, index) => (
+          <div
+          key={index}
+          onClick={()=>setcolorName()}
+            className="w-[20px] h-[20px] rounded-full"
+            style={{ backgroundColor: item }}
+          ></div>
+        ))}
+        </div>
       </div>
     </div>
   );
