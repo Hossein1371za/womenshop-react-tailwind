@@ -1,13 +1,16 @@
-import React from "react";
-import { productData } from "./ProductsData";
+import React, { useContext } from "react";
+import { DataContext } from "../../../Context";
 import formatCurrency from "../../../Util";
 
 const Products = () => {
+  const value = useContext(DataContext)
+  const [products, setProducts] = value.products
+  
   return (
     <div className="container mx-auto mt-[80px]">
         <h2 className="h1 text-center mb-6">محصولات</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
-        {productData.map((item, index) => {
+        {products.map((item, index) => {
           return (
             <div className="flex flex-col items-center gap-y-3 p-4 shadow-xl border-2 overflow-hidden" key={index}>
               <img className="cursor-pointer p-6 hover:scale-125 transition-all duration-300" src={item.img} alt="/" />

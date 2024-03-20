@@ -1,12 +1,15 @@
-import React from 'react'
-import Core from './Core'
+import React from "react";
+import Core from "./Core";
+import { DataProvider } from "./Context";
 
 const App = () => {
   return (
-    <div>
-      <Core/>
-    </div>
-  )
-}
+    <DataProvider>
+      <div>
+        <Core />
+      </div>
+    </DataProvider>
+  );
+};
 
-export default App
+export default App;
