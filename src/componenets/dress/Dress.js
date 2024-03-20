@@ -1,13 +1,12 @@
 import React from "react";
-import FilterProduct from "./FilterProduct";
+import Products from "../home/product/Products"
+import AboutBuy from "../home/aboutBuy/AboutBuy"
 
 const Dress = () => {
   return (
-    <div className="my-[80px]">
-      <div className="container mx-auto">
-        <FilterProduct />
-      </div>
-    </div>
+    <>
+    <Products/>
+    <AboutBuy/></>
   );
 };
 
