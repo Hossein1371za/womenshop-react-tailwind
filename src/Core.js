@@ -4,7 +4,7 @@ import Home from "./componenets/home/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./componenets/footer/Footer";
 import Dress from "./componenets/dress/Dress";
-import Details from "./componenets/home/product/Details";
+import Details from "./componenets/Details";
 
 const Core = () => {
   return (
