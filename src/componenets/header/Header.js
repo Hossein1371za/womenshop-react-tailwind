@@ -22,7 +22,7 @@ const Header = () => {
           <Link to="/" className="flex items-center justify-center gap-x-4">
             <img
               className="w-[54px] h-[54px] text-primary"
-              src="assets/image/logo.svg"
+              src="/assets/image/logo.svg"
               alt="Logo"
             />
             <h1 className="text-xl font-semibold">مزون زنانه</h1>

@@ -4,6 +4,7 @@ import Home from "./componenets/home/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./componenets/footer/Footer";
 import Dress from "./componenets/dress/Dress";
+import Details from "./componenets/home/product/Details";
 
 const Core = () => {
   return (
@@ -12,6 +13,7 @@ const Core = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dress" element={<Dress />} />
+        <Route path="/products/:id" element={<Details />} />
       </Routes>
       <Footer/>
     </BrowserRouter>

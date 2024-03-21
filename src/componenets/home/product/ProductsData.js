@@ -1,5 +1,6 @@
 export const productData = [
     {
+        id:1,
         img:"/assets/image/products/product1.jpg",
         title:"کاپشن چرمی",
         price:570000,
@@ -8,6 +9,7 @@ export const productData = [
         size:["sm","l","xl"],
     },
     {
+        id:2,
         img:"/assets/image/products/product2.jpg",
         title:"کاپشن چرمی",
         price:570000,
@@ -16,6 +18,7 @@ export const productData = [
         size:["sm","l"],
     },
     {
+        id:3,
         img:"/assets/image/products/product3.jpg",
         title:"کاپشن چرمی",
         price:570000,
@@ -25,6 +28,7 @@ export const productData = [
         
     },
     {
+        id:4,
         img:"/assets/image/products/product4.jpg",
         title:"کاپشن چرمی",
         price:570000,
@@ -34,6 +38,7 @@ export const productData = [
 
     },
     {
+        id:5,
         img:"/assets/image/products/product5.jpg",
         title:"کاپشن چرمی",
         price:570000,
@@ -42,6 +47,7 @@ export const productData = [
         size:["l"],
     },
     {
+        id:6,
         img:"/assets/image/products/product6.jpg",
         title:"کاپشن چرمی",
         price:570000,
@@ -50,6 +56,7 @@ export const productData = [
         size:["s","m","l","xl"],
     },
     {
+        id:7,
         img:"/assets/image/products/product7.jpg",
         title:"کاپشن چرمی",
         price:570000,
@@ -58,6 +65,7 @@ export const productData = [
         size:["s","m","l","xl"],
     },
     {
+        id:8,
         img:"/assets/image/products/product8.jpg",
         title:"کاپشن چرمی",
         price:570000,
