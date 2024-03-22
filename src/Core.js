@@ -8,6 +8,7 @@ import Details from "./componenets/Details";
 import Purse from "./componenets/purse/Purse";
 import Shoes from "./componenets/shoes/Shoes";
 import Accessory from "./componenets/accessory/Accessory";
+import Login from "./componenets/login/Login";
 
 const Core = () => {
   return (
@@ -20,6 +21,7 @@ const Core = () => {
         <Route path="/purse" element={<Purse />} />
         <Route path="/shoes" element={<Shoes />} />
         <Route path="/accessory" element={<Accessory />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
